@@ -31,16 +31,17 @@ Before you begin, ensure you have met the following requirements:
 
 ## Running the Project
 
-    To generate the json output of the roadmap, utilise the following script:
-    ```
-    python main.py
-    ```
+To generate the json output of the roadmap, utilise the following script:
+
+```
+python main.py
+```
 
 ## Experimenting with the code
-    For those interested in diving deeper into the project's workings, the iterate_topic.ipynb Jupyter Notebook is available. This notebook allows for hands-on experimentation with the code, offering insights into the logic and methodology behind the roadmap generation process.
+For those interested in diving deeper into the project's workings, the iterate_topic.ipynb Jupyter Notebook is available. This notebook allows for hands-on experimentation with the code, offering insights into the logic and methodology behind the roadmap generation process.
 
-    To use the notebook, ensure you have Jupyter installed, then run the code blocks within the notebook on a code editor tool like vscode.
+To use the notebook, ensure you have Jupyter installed, then run the code blocks within the notebook on a code editor tool like vscode.
 
 ## Contact
-    Name: Yeo Meng Han
-    Project Link: https://github.com/yeo-menghan/roadmap_gen
+- Name: Yeo Meng Han
+- Project Link: https://github.com/yeo-menghan/roadmap_gen
