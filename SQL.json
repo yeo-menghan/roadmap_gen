@@ -1,0 +1,181 @@
+
+{
+  "name": "SQL",
+  "topics": [
+    {
+      "topic": "Introduction to SQL",
+      "sub-topics": [
+        {
+          "sub-topic": "What is SQL?",
+          "content pointers": [
+            "Definition and purpose of SQL",
+            "History and evolution of SQL",
+            "SQL vs. NoSQL databases"
+          ]
+        },
+        {
+          "sub-topic": "Understanding Relational Databases",
+          "content pointers": [
+            "Introduction to relational databases",
+            "Tables, rows, and columns",
+            "Primary keys and foreign keys"
+          ]
+        },
+        {
+          "sub-topic": "Setting Up the SQL Environment",
+          "content pointers": [
+            "Choosing an SQL database",
+            "Installation and setup of SQL Server/MySQL/PostgreSQL",
+            "Introduction to database management tools"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "SQL Basics",
+      "sub-topics": [
+        {
+          "sub-topic": "Basic SQL Syntax",
+          "content pointers": [
+            "SQL syntax overview",
+            "Data types in SQL",
+            "Creating databases and tables"
+          ]
+        },
+        {
+          "sub-topic": "CRUD Operations",
+          "content pointers": [
+            "INSERT INTO - Adding data",
+            "SELECT - Retrieving data",
+            "UPDATE - Modifying data",
+            "DELETE - Removing data"
+          ]
+        },
+        {
+          "sub-topic": "Filtering, Sorting, and Calculating Data",
+          "content pointers": [
+            "WHERE clause for data filtering",
+            "ORDER BY clause for sorting",
+            "Aggregate functions (COUNT, AVG, MAX, MIN, SUM)"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Advanced Data Manipulation",
+      "sub-topics": [
+        {
+          "sub-topic": "Joining Tables",
+          "content pointers": [
+            "Understanding JOINs",
+            "INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN",
+            "Using JOINs to combine data from multiple tables"
+          ]
+        },
+        {
+          "sub-topic": "Subqueries and Nested Queries",
+          "content pointers": [
+            "Definition and use cases for subqueries",
+            "Writing nested queries",
+            "Correlated subqueries"
+          ]
+        },
+        {
+          "sub-topic": "Set Operations",
+          "content pointers": [
+            "UNION and UNION ALL",
+            "INTERSECT",
+            "EXCEPT"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Data Definition and Database Management",
+      "sub-topics": [
+        {
+          "sub-topic": "Advanced Table Design",
+          "content pointers": [
+            "Constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK)",
+            "Indexes for performance improvement",
+            "AUTO_INCREMENT and Sequences"
+          ]
+        },
+        {
+          "sub-topic": "Views",
+          "content pointers": [
+            "Creating and managing views",
+            "Advantages of using views",
+            "Updatable views"
+          ]
+        },
+        {
+          "sub-topic": "Stored Procedures and Functions",
+          "content pointers": [
+            "Creating stored procedures",
+            "Benefits of stored procedures",
+            "User-defined functions"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Advanced SQL Techniques",
+      "sub-topics": [
+        {
+          "sub-topic": "Triggers and Events",
+          "content pointers": [
+            "Creating and managing triggers",
+            "Use cases for triggers",
+            "Scheduled events and automated tasks"
+          ]
+        },
+        {
+          "sub-topic": "Transaction Management",
+          "content pointers": [
+            "ACID properties",
+            "BEGIN TRANSACTION, COMMIT, and ROLLBACK",
+            "Isolation levels and locking"
+          ]
+        },
+        {
+          "sub-topic": "Optimizing SQL Queries",
+          "content pointers": [
+            "Understanding query execution plans",
+            "Indexing strategies",
+            "Common performance issues and solutions"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Real-World SQL",
+      "sub-topics": [
+        {
+          "sub-topic": "Working with Large Databases",
+          "content pointers": [
+            "Handling large datasets",
+            "Partitioning tables",
+            "Archiving data"
+          ]
+        },
+        {
+          "sub-topic": "Security in SQL",
+          "content pointers": [
+            "User authentication and authorization",
+            "SQL injection and how to prevent it",
+            "Encrypting data"
+          ]
+        },
+        {
+          "sub-topic": "SQL in the Cloud",
+          "content pointers": [
+            "Overview of cloud database services",
+            "Migrating databases to the cloud",
+            "Benefits and considerations of cloud databases"
+          ]
+        }
+      ]
+    }
+  ]
+}
