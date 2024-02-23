@@ -24,8 +24,9 @@ Before you begin, ensure you have met the following requirements:
     OPENAI_API_KEY=your_api_key_here
     ```
 3. **Install Dependencies**
-    Install the required Python packages using pip:
+    Create a virtual environment first before installing the required Python packages using pip:
     ```
+    python -m venv roadmap_venv
     pip install -r requirements.txt
     ```
 
