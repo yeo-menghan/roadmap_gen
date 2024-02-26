@@ -1,0 +1,29 @@
+@startuml
+actor User
+participant "Web Search\nModule" as WebSearch
+participant "Information\nRetrieval Service" as Retrieval
+participant "Data\nProcessing Module" as Processing
+participant "Verification\nService (Optional)" as Verification
+participant "Embedding &\nIndexing System" as Embedding
+participant "LLM\n(GPT-4)" as LLM
+participant "Citation\nCalculation\nAlgorithm" as CitationCalc
+participant "Vector\nDatabase" as VectorDB
+database "Web\nSources" as WebDB
+
+User -> WebSearch : Submits query
+WebSearch -> WebDB : Search the web
+WebDB -> WebSearch : Return search results
+WebSearch -> Retrieval : Send selected results
+Retrieval -> Processing : Extract and summarise information
+Processing -> Verification : Verify information (if applicable)
+Verification -> Embedding : Send verified data
+Processing -> Embedding : Send processed data (if no verification)
+Embedding -> VectorDB : Convert to embeddings & index
+User -> LLM : Submits query for response
+LLM -> VectorDB : Retrieve information
+VectorDB -> LLM : User's docs & Web data
+LLM -> CitationCalc : Generate citations for response
+CitationCalc -> LLM : Formatted citations
+LLM -> User : Deliver response with citations
+
+@enduml
