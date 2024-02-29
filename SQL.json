@@ -14,49 +14,78 @@
           ]
         },
         {
-          "sub-topic": "Understanding Relational Databases",
+          "sub-topic": "Types of SQL Commands",
           "content pointers": [
-            "Introduction to relational databases",
-            "Tables, rows, and columns",
-            "Primary keys and foreign keys"
+            "Data Definition Language (DDL)",
+            "Data Manipulation Language (DML)",
+            "Data Control Language (DCL)",
+            "Transaction Control Language (TCL)"
           ]
         },
         {
-          "sub-topic": "Setting Up the SQL Environment",
+          "sub-topic": "Understanding SQL Syntax",
           "content pointers": [
-            "Choosing an SQL database",
-            "Installation and setup of SQL Server/MySQL/PostgreSQL",
-            "Introduction to database management tools"
+            "Basic SQL syntax overview",
+            "Case sensitivity in SQL",
+            "Comments in SQL"
           ]
         }
       ]
     },
     {
-      "topic": "SQL Basics",
+      "topic": "Setting Up the Environment",
       "sub-topics": [
         {
-          "sub-topic": "Basic SQL Syntax",
+          "sub-topic": "SQL Database Systems",
           "content pointers": [
-            "SQL syntax overview",
-            "Data types in SQL",
-            "Creating databases and tables"
+            "Overview of popular SQL databases: MySQL, PostgreSQL, SQL Server",
+            "Choosing the right SQL database"
           ]
         },
         {
-          "sub-topic": "CRUD Operations",
+          "sub-topic": "Installation and Configuration",
           "content pointers": [
-            "INSERT INTO - Adding data",
-            "SELECT - Retrieving data",
-            "UPDATE - Modifying data",
-            "DELETE - Removing data"
+            "Installing a SQL database server",
+            "Configuring the SQL server for first-time use"
           ]
         },
         {
-          "sub-topic": "Filtering, Sorting, and Calculating Data",
+          "sub-topic": "Using SQL IDEs",
           "content pointers": [
-            "WHERE clause for data filtering",
-            "ORDER BY clause for sorting",
-            "Aggregate functions (COUNT, AVG, MAX, MIN, SUM)"
+            "Introduction to SQL IDEs",
+            "Setting up and using popular IDEs like SQL Server Management Studio, pgAdmin, and MySQL Workbench"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Basic SQL Operations",
+      "sub-topics": [
+        {
+          "sub-topic": "Creating Databases and Tables",
+          "content pointers": [
+            "CREATE DATABASE statement",
+            "CREATE TABLE statement",
+            "Data types in SQL"
+          ]
+        },
+        {
+          "sub-topic": "Basic Data Manipulation",
+          "content pointers": [
+            "INSERT INTO statement",
+            "SELECT statement",
+            "WHERE clause",
+            "UPDATE statement",
+            "DELETE statement"
+          ]
+        },
+        {
+          "sub-topic": "Querying Data",
+          "content pointers": [
+            "Sorting results with ORDER BY",
+            "Filtering data with conditions",
+            "Combining conditions with AND, OR, NOT",
+            "Limiting results with LIMIT/FETCH"
           ]
         }
       ]
@@ -65,19 +94,27 @@
       "topic": "Advanced Data Manipulation",
       "sub-topics": [
         {
-          "sub-topic": "Joining Tables",
+          "sub-topic": "Joins and Relationships",
           "content pointers": [
-            "Understanding JOINs",
-            "INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN",
-            "Using JOINs to combine data from multiple tables"
+            "Understanding primary and foreign keys",
+            "INNER JOIN",
+            "LEFT JOIN, RIGHT JOIN, FULL JOIN",
+            "Self Join"
           ]
         },
         {
           "sub-topic": "Subqueries and Nested Queries",
           "content pointers": [
-            "Definition and use cases for subqueries",
-            "Writing nested queries",
+            "Using subqueries in SELECT, FROM, and WHERE clauses",
             "Correlated subqueries"
+          ]
+        },
+        {
+          "sub-topic": "Aggregations and Grouping",
+          "content pointers": [
+            "Using aggregate functions: COUNT, SUM, AVG, MAX, MIN",
+            "GROUP BY clause",
+            "HAVING clause for filtering aggregated data"
           ]
         },
         {
@@ -91,88 +128,67 @@
       ]
     },
     {
-      "topic": "Data Definition and Database Management",
+      "topic": "Advanced SQL Features",
       "sub-topics": [
         {
-          "sub-topic": "Advanced Table Design",
+          "sub-topic": "Indexes and Performance Tuning",
           "content pointers": [
-            "Constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK)",
-            "Indexes for performance improvement",
-            "AUTO_INCREMENT and Sequences"
-          ]
-        },
-        {
-          "sub-topic": "Views",
-          "content pointers": [
-            "Creating and managing views",
-            "Advantages of using views",
-            "Updatable views"
+            "Creating and using indexes",
+            "Understanding execution plans",
+            "Basic performance tuning tips"
           ]
         },
         {
           "sub-topic": "Stored Procedures and Functions",
           "content pointers": [
-            "Creating stored procedures",
-            "Benefits of stored procedures",
-            "User-defined functions"
+            "Creating and using stored procedures",
+            "Creating and using user-defined functions",
+            "Variables and control flow structures in stored procedures"
           ]
-        }
-      ]
-    },
-    {
-      "topic": "Advanced SQL Techniques",
-      "sub-topics": [
+        },
         {
           "sub-topic": "Triggers and Events",
           "content pointers": [
+            "Understanding triggers",
             "Creating and managing triggers",
-            "Use cases for triggers",
-            "Scheduled events and automated tasks"
+            "Scheduled events and their management"
           ]
         },
         {
-          "sub-topic": "Transaction Management",
+          "sub-topic": "Transactions and Concurrency Control",
           "content pointers": [
             "ACID properties",
-            "BEGIN TRANSACTION, COMMIT, and ROLLBACK",
-            "Isolation levels and locking"
-          ]
-        },
-        {
-          "sub-topic": "Optimizing SQL Queries",
-          "content pointers": [
-            "Understanding query execution plans",
-            "Indexing strategies",
-            "Common performance issues and solutions"
+            "BEGIN TRANSACTION, COMMIT, ROLLBACK",
+            "Isolation levels and their impact on concurrency"
           ]
         }
       ]
     },
     {
-      "topic": "Real-World SQL",
+      "topic": "SQL in Practice",
       "sub-topics": [
         {
-          "sub-topic": "Working with Large Databases",
+          "sub-topic": "Working with Real Data",
           "content pointers": [
-            "Handling large datasets",
-            "Partitioning tables",
-            "Archiving data"
+            "Importing and exporting data",
+            "Data cleaning and preparation",
+            "Case studies: Analyzing real datasets"
           ]
         },
         {
-          "sub-topic": "Security in SQL",
+          "sub-topic": "SQL Best Practices",
           "content pointers": [
-            "User authentication and authorization",
-            "SQL injection and how to prevent it",
-            "Encrypting data"
+            "Writing efficient SQL queries",
+            "Security best practices in SQL",
+            "Maintaining and optimizing SQL databases"
           ]
         },
         {
-          "sub-topic": "SQL in the Cloud",
+          "sub-topic": "Advanced SQL Topics",
           "content pointers": [
-            "Overview of cloud database services",
-            "Migrating databases to the cloud",
-            "Benefits and considerations of cloud databases"
+            "Exploring window functions",
+            "Common Table Expressions (CTEs)",
+            "Recursive queries"
           ]
         }
       ]
